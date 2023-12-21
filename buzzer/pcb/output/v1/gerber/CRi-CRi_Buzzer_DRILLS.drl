@@ -1,0 +1,59 @@
+M48
+; #@! TF.GenerationSoftware,LibrePCB,LibrePCB,0.1.7
+; #@! TF.CreationDate,2023-12-20T12:02:32
+; #@! TF.ProjectId,CRi-CRi Buzzer,ec579d49-da22-4424-9e15-187340a51fe6,v1
+; #@! TF.Part,Single
+; #@! TF.SameCoordinates
+; #@! TF.FileFunction,MixedPlating,1,2
+FMAT,2
+METRIC,TZ
+; #@! TA.AperFunction,Plated,PTH,ViaDrill
+T1C0.5
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
+T2C0.7
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
+T3C0.8128
+; #@! TA.AperFunction,Plated,PTH,ComponentDrill
+T4C1.3
+; #@! TA.AperFunction,NonPlated,NPTH,MechanicalDrill
+T5C3.4
+; #@! TA.AperFunction,NonPlated,NPTH,MechanicalDrill
+T6C6.0
+%
+G90
+G05
+M71
+T1
+X11.5Y6.7
+X15.0Y11.5
+X-2.5Y-5.9
+X-9.5Y-7.5
+X14.0Y6.0
+T2
+X10.5Y2.75
+X10.5Y-0.75
+T3
+X-14.31Y-1.2
+X-6.69Y-1.2
+X13.244077Y-9.494077
+X7.855923Y-4.105923
+X-14.31Y-3.5
+X-6.69Y-3.5
+X-6.19Y12.0
+X-13.81Y12.0
+T4
+X-0.94Y9.0
+X-8.56Y9.0
+X-8.56Y6.46
+X-6.02Y6.46
+X-6.02Y9.0
+X-0.94Y6.46
+X-3.48Y6.46
+X-3.48Y9.0
+T5
+X-22.4Y7.5
+X22.4Y-7.5
+T6
+X0.0Y0.0
+T0
+M30
