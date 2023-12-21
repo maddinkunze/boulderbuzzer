@@ -8,8 +8,8 @@ Those buzzers are designed around hollow M10 bolts that can be used to simultane
 
 ## Buzzer
 
-The buzzer subdirectory contains some docs, the pcb design, the source code, some 3d-printable files and a few words about assembly and disassembly for/of an individual buzzer.
+The [buzzer subdirectory](buzzer) contains some docs, the pcb design, the source code, some 3d-printable files and a few words about assembly and disassembly for/of an individual buzzer.
 
 ## Station
 
-The station subdirectory contains the documentation and source code for the base station to which all buzzers connect.
+The [station subdirectory](station) contains the documentation and source code for the base station to which all buzzers connect.
