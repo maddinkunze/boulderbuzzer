@@ -87,7 +87,7 @@ Please note that although the ESP01/ESP8266 works with 3.3V, the LEDs are suppli
 
 Please refer to the bill of materials above for all the components used and where to find replacements.
 
-### 6. Reassemble
+### 7. Reassemble
 
 You can now reassemble the buzzer as described in the Assembly section, starting at [TODO]
 
