@@ -42,3 +42,54 @@
  - Paint Brush
  - Soldering Iron + Solder
  - Pair of Pliers (probably)
+
+## Assembly
+
+[TODO]
+
+
+## Disassembly and Repair
+
+The buzzer contains moving/compliant parts and will be subject to breaking eventually. Here is how you can disassemble and repair the buzzer:
+
+### 1. Undo the marked bolts
+
+When you turn the buzzer around to the side where the cable comes out, there should be 4 bolts and whoever assembled it marked two opposing bolts. Undo these two bolts; the dome/springy part of the buzzer can now be taken out by pushing the hollow bolt/cable through the hole.
+
+### 2. Take off the dome
+
+Take a slim screwdriver or something else to pry and stick it between the lower and upper white parts. Use the screwdriver to pry these two pieces apart. You should be able to see a PCB now.
+
+### 3. Take out the PCB
+
+If possible, detach the power cable by unscrewing the bolts in the terminal block. Undo the two bolts securing the PCB to those long rivet nuts. Make sure you do not lose the rivet nuts or springs. Ideally, you now have only the PCB left and can start to test or resolder any component.
+
+### 4. Take off the microcontroller
+
+Should you need to take out the microcontroller (the extra pcb that kind of sticks up in the air), use pliers to gently wiggle it out of its socket. Try not to bend any of its pins. You can test and/or reprogram the microcontroller (look up "ESP-01" for more information) using the Arduino IDE.
+
+### 5. Find the destroyed component
+
+Please refer to the schematic below on how the PCB should work and which component is broken. More information can be found in the pcb subdirectory.
+
+Common faults are:
+ - lose power connection
+ - broken switch (check for continuity across the switch)
+ - lose connection between the ESP01 and its socket (try to power the whole PCB and gently wiggle the ESP; if the LEDs start to flicker, try to push the ESP back into its socket)
+ - corrosion
+ - faulty LED (check them using a diode tester)
+ - faulty resistors (simply measure them and check with the schematic)
+ - faulty voltage regulator AMS1117-3.3 (check if there are 3.3V between the middle pin of the regulator and GND)
+
+Please note that although the ESP01/ESP8266 works with 3.3V, the LEDs are supplied with 5V. This is normal and _not_ a fault.
+
+### 6. Repair the destroyed component
+
+Please refer to the bill of materials above for all the components used and where to find replacements.
+
+### 6. Reassemble
+
+You can now reassemble the buzzer as described in the Assembly section, starting at [TODO]
+
+## Schematic
+<p align="center"><img src="docs/img/buzzer_schematic.jpg" width="80%"></p>
