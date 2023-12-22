@@ -1,10 +1,14 @@
+# Buzzer
+
+
+
 ## Build Instructions
 
 ### Bill of Materials
 
 | Amount | Part Name | DIY | Buy | Image | Additional Notes |
 |---|---|---|---|---|---|
-| $1 \times$ | Buzzer | ❌ | https://www.amazon.com/dp/B0CPHT5N3X <br> https://www.ebay.com/itm/395040810324 <br> https://www.amazon.com/dp/B0CGHFH3M1 <br> https://www.amazon.com/dp/B0CQSXBK7R <br> https://www.sparkfun.com/products/9181 <br> https://grobotronics.com/big-dome-push-button-red-100mm.html?sl=en <br> https://www.sparkfun.com/products/retired/11964 | | Preferrably with a transparent dome
+| $1 \times$ | Buzzer | ❌ | https://www.amazon.com/dp/B0CPHT5N3X <br> https://www.ebay.com/itm/395040810324 <br> https://www.amazon.com/dp/B0CGHFH3M1 <br> https://www.amazon.com/dp/B0CQSXBK7R <br> https://www.sparkfun.com/products/9181 <br> https://grobotronics.com/big-dome-push-button-red-100mm.html?sl=en <br> https://www.sparkfun.com/products/retired/11964 | | Preferrably with a transparent or white dome
 | $1 \times$ | Buzzer Case | Click here | ❌ | | May not be neccessary, you can repurpose the outer shell of the buzzer
 | $1 \times$ | 3D-Printed Bolt Holder | Click here | Can be ordered online using the design files | | Can be omitted in certain cases, should match the type of hollow M10 Bolt you are using
 | $1 \times$ | M10 $\times$ 30mm Bolt (Hollow) | Click here | https://www.amazon.de/dp/B0BRNBQY3Y <br> https://www.ebay.com/itm/143405833724 | |
@@ -13,6 +17,7 @@
 | $2 \times$ | M3 Nut |
 | $2 \times$ | M3 Washer |
 | $2 \times$ | M3 Rivet Nut | Click here | https://www.amazon.com/dp/B0962QQGFZ <br> https://www.ebay.com/itm/151788854026 | | Should have a height of at least [TODO]mm (so that the spring has enough room for actually compressing so the buzzer can be pressed)
+| $2 \times$ | $6-8mm \times 14-20mm$ Compression Spring | Click here | | | The springs of some battery terminals work quite well here
 | $1 \times$ | Custom PCB | Click here | The custom PCB can be ordered online (non-exhaustive list) from: <br> https://pcbway.com/ <br> https://jlcpcb.com/
 | $2 \times$ | ESP-01S Module | ❌ | https://www.amazon.com/dp/B09J2KPHTN <br> https://www.ebay.com/itm/334980650665 | | An ESP-01S is preferred over an ESP-01, but both can be used
 | $1 \times$ | AMS1117-3.3V Voltage Regulator (SMD) | ❌ | https://www.amazon.com/dp/B07X75XXYL <br> https://www.ebay.com/itm/392097419034
