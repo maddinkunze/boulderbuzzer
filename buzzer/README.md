@@ -70,7 +70,7 @@ Should you need to take out the microcontroller (the extra pcb that kind of stic
 
 ### 5. Find the destroyed component
 
-Please refer to the schematic below on how the PCB should work and which component is broken. More information can be found in the pcb subdirectory.
+Please refer to the schematic [below](#schematic) on how the PCB should work and which component is broken. More information can be found in the pcb subdirectory.
 
 Common faults are:
  - lose power connection
