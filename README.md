@@ -1,4 +1,4 @@
-# boulderbuzzer - Buzzers that can be mounted to a portable boulder wall
+# boulderbuzzer - Buzzers that can be mounted to (portable) boulder walls
 
 This repository contains information, source code, pcb designs, assembly instructions, etc for building the following buzzers:
 
